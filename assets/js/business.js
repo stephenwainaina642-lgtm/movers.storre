@@ -1,11 +1,11 @@
 /* ============================================================
    BUSINESS CONFIGURATION — edit here once, the whole site updates.
-   Clean Water Movers is a Nairobi-based movers and transport company
+   Movers.Store is a Nairobi-based movers and transport company
    (house moving, office relocation, furniture and goods transport),
    with water tanker delivery offered as a secondary service.
    ============================================================ */
 const BUSINESS = {
-  name: "Clean Water Movers",
+  name: "Movers.Store",
   tagline: "Movers & Transport",
   location: "Nairobi & Kiambu County, Kenya",
   siteUrl: "https://www.cleanwatermovers.shop",
@@ -17,14 +17,14 @@ const BUSINESS = {
 
 /* Prefilled WhatsApp messages by enquiry type. {loc} is filled in automatically. */
 const WA_MESSAGES = {
-  quote: "Hi Clean Water Movers, I'd like a moving quote{loc}.",
-  house: "Hi Clean Water Movers, I'd like a quote for house moving{loc}.",
-  office: "Hi Clean Water Movers, I'd like a quote for office relocation{loc}.",
-  furniture: "Hi Clean Water Movers, I'd like a quote for furniture moving{loc}.",
-  relocation: "Hi Clean Water Movers, I'd like to enquire about relocation services{loc}.",
-  transport: "Hi Clean Water Movers, I'd like to enquire about goods transport{loc}.",
-  water: "Hi Clean Water Movers, I need water delivery{loc}. I'd like to get a quote.",
-  general: "Hi Clean Water Movers, I'd like to enquire about your moving and transport services{loc}.",
+  quote: "Hi Movers.Store, I'd like a moving quote{loc}.",
+  house: "Hi Movers.Store, I'd like a quote for house moving{loc}.",
+  office: "Hi Movers.Store, I'd like a quote for office relocation{loc}.",
+  furniture: "Hi Movers.Store, I'd like a quote for furniture moving{loc}.",
+  relocation: "Hi Movers.Store, I'd like to enquire about relocation services{loc}.",
+  transport: "Hi Movers.Store, I'd like to enquire about goods transport{loc}.",
+  water: "Hi Movers.Store, I need water delivery{loc}. I'd like to get a quote.",
+  general: "Hi Movers.Store, I'd like to enquire about your moving and transport services{loc}.",
 };
 
 function waLink(kind, location) {

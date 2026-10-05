@@ -8,7 +8,7 @@ const BUSINESS = {
   name: "Movers.Store",
   tagline: "Movers & Transport",
   location: "Nairobi & Kiambu County, Kenya",
-  siteUrl: "https://www.movers.fit",
+  siteUrl: "https://movers.fit",
   phoneDisplay: "0720 792 185",
   phoneDial: "+254720792185",
   whatsapp: "254720792185",
